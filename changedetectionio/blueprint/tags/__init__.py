@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from flask import Blueprint, request, make_response, render_template, flash, url_for, redirect
 from changedetectionio.store import ChangeDetectionStore
 from changedetectionio import login_optionally_required

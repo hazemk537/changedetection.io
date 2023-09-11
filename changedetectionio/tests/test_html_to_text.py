@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 #!/usr/bin/python3
 """Test suite for the method to extract text from an html string"""
 from ..html_tools import html_to_text

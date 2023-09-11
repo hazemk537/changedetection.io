@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 #!/usr/bin/python3
 
 from flask import make_response, request

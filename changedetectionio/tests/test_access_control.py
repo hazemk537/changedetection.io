@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from . util import live_server_setup, extract_UUID_from_client
 from flask import url_for
 import time

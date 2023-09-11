@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 # used for the notifications, the front-end is using a JS library
 
 import difflib

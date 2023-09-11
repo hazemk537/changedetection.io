@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from os import getenv
 from changedetectionio.notification import (
     default_notification_body,

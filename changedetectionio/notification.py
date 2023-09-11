@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 import apprise
 from jinja2 import Environment, BaseLoader
 from apprise import NotifyFormat

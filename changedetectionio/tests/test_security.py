@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from flask import url_for
 from . util import set_original_response, set_modified_response, live_server_setup
 import time

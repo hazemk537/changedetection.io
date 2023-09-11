@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 #!/usr/bin/python3
 import smtpd
 import asyncore

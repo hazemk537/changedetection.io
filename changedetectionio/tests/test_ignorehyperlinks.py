@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 #!/usr/bin/python3
 """Test suite for the render/not render anchor tag content functionality"""
 

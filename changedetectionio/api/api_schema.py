@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 # Responsible for building the storage dict into a set of rules ("JSON Schema") acceptable via the API
 # Probably other ways to solve this when the backend switches to some ORM
 

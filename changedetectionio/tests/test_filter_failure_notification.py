@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 import os
 import time
 from flask import url_for

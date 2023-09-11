@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 import apprise
 
 # Create our AppriseAsset and populate it with some of our new values:

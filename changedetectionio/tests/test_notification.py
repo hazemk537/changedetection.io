@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 import json
 import os
 import time

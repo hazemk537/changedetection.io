@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from concurrent.futures import ThreadPoolExecutor
 
 from functools import wraps

@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from abc import ABC, abstractmethod
 import time
 import validators

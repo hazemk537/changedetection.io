@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 
 from distutils.util import strtobool
 from flask import Blueprint, flash, redirect, url_for

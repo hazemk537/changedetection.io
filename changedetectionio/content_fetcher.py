@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 import hashlib
 from abc import abstractmethod
 import chardet

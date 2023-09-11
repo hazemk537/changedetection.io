@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from wtforms import (
     BooleanField,
     Form,

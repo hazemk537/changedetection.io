@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 # HTML to TEXT/JSON DIFFERENCE FETCHER
 
 import hashlib

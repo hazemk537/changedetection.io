@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from .Watch import base_config
 import uuid
 

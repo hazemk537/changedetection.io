@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 
 # HORRIBLE HACK BUT WORKS :-) PR anyone?
 #

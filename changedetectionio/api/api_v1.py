@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 import os
 from distutils.util import strtobool
 

@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from playwright.sync_api import PlaywrightContextManager
 import asyncio
 

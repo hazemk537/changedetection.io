@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 #!/usr/bin/python3
 
 # https://www.reddit.com/r/selfhosted/comments/wa89kp/comment/ii3a4g7/?context=3

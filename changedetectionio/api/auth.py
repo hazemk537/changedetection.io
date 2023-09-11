@@ -1,3 +1,6 @@
+import sys
+sys.path.append("changedetectionio")
+
 from flask import request, make_response, jsonify
 from functools import wraps
 
