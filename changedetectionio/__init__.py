@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+import sys
+sys.path.append("changedetectionio")
 
 from changedetectionio import queuedWatchMetaData
 from copy import deepcopy
