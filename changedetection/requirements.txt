@@ -11,6 +11,10 @@ inscriptis~=2.2
 pytz
 timeago~=1.0
 validators~=0.21
+<<<<<<< HEAD:changedetectionio/requirements.txt
+=======
+changedetection.io
+>>>>>>> 0680a95cc60d35334e54cb392b7df94546315686:changedetection/requirements.txt
 
 # Set these versions together to avoid a RequestsDependencyWarning
 # >= 2.26 also adds Brotli support if brotli is installed

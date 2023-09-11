@@ -1,0 +1,32 @@
+{
+<<<<<<< HEAD:changedetectionio/vercel.json
+    "builds": [
+        {
+            "src": "api/hello.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "api/hello.py"
+        }
+    ]
+}
+=======
+
+  "builds": [
+      {
+          "src": "*.py",
+          "use": "@vercel/python"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "changedetection.py"
+      }
+  ]
+}
+
+>>>>>>> 0680a95cc60d35334e54cb392b7df94546315686:changedetection/vercel.json
