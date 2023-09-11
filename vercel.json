@@ -1,5 +1,14 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/changedetection/changedetection" }
+    "builds": [
+        {
+            "src": "changedetection/changedetection.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "changedetection/changedetection.py"
+        }
     ]
-  }
+}
