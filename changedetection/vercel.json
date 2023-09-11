@@ -1,5 +1,15 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "./__init__.py" }
-    ]
-  }
+
+  "builds": [
+      {
+          "src": "*.py",
+          "use": "@liudonghua123/now-flask"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "__init__.py"
+      }
+  ]
+}
