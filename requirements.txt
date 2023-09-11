@@ -10,7 +10,8 @@ flask~=2.0
 inscriptis~=2.2
 pytz
 timeago~=1.0
-validators
+validators~=0.21
+
 
 # Set these versions together to avoid a RequestsDependencyWarning
 # >= 2.26 also adds Brotli support if brotli is installed
@@ -32,7 +33,7 @@ dnspython<2.3.0
 # jq not available on Windows so must be installed manually
 
 # Notification library
-apprise~=1.4.5
+apprise~=1.5.0
 
 # apprise mqtt https://github.com/dgtlmoon/changedetection.io/issues/315
 paho-mqtt

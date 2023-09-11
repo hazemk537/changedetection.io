@@ -67,13 +67,14 @@ Requires Playwright to be enabled.
 - Get alerts when new job positions are open on Bamboo HR and other job platforms
 - Website defacement monitoring
 - Pokémon Card Restock Tracker / Pokémon TCG Tracker
+- RegTech - stay ahead of regulatory changes, regulatory compliance
 
 _Need an actual Chrome runner with Javascript support? We support fetching via WebDriver and Playwright!</a>_
 
 #### Key Features
 
 - Lots of trigger filters, such as "Trigger on text", "Remove text by selector", "Ignore text", "Extract text", also using regular-expressions!
-- Target elements with xPath and CSS Selectors, Easily monitor complex JSON with JSONPath or jq
+- Target elements with xPath(1.0) and CSS Selectors, Easily monitor complex JSON with JSONPath or jq
 - Switch between fast non-JS and Chrome JS based "fetchers"
 - Track changes in PDF files (Monitor text changed in the PDF, Also monitor PDF filesize and checksums)
 - Easily specify how often a site should be checked
@@ -84,6 +85,8 @@ _Need an actual Chrome runner with Javascript support? We support fetching via W
 - Send a screenshot with the notification when a change is detected in the web page
 
 We [recommend and use Bright Data](https://brightdata.grsm.io/n0r16zf7eivq) global proxy services, Bright Data will match any first deposit up to $100 using our signup link.
+
+[Oxylabs](https://oxylabs.go2cloud.org/SH2d) is also an excellent proxy provider and well worth using, they offer Residental, ISP, Rotating and many other proxy types to suit your project. 
 
 Please :star: star :star: this project and help it grow! https://github.com/dgtlmoon/changedetection.io/
 
@@ -144,7 +147,7 @@ See the wiki for more information https://github.com/dgtlmoon/changedetection.io
 
 ## Filters
 
-XPath, JSONPath, jq, and CSS support comes baked in! You can be as specific as you need, use XPath exported from various XPath element query creation tools. 
+XPath(1.0), JSONPath, jq, and CSS support comes baked in! You can be as specific as you need, use XPath exported from various XPath element query creation tools. 
 (We support LXML `re:test`, `re:match` and `re:replace`.)
 
 ## Notifications
@@ -183,7 +186,7 @@ This will re-parse the JSON and apply formatting to the text, making it super ea
 
 ### JSONPath or jq?
 
-For more complex parsing, filtering, and modifying of JSON data, jq is recommended due to the built-in operators and functions. Refer to the [documentation](https://stedolan.github.io/jq/manual/) for more specifc information on jq.
+For more complex parsing, filtering, and modifying of JSON data, jq is recommended due to the built-in operators and functions. Refer to the [documentation](https://stedolan.github.io/jq/manual/) for more specific information on jq.
 
 One big advantage of `jq` is that you can use logic in your JSON filter, such as filters to only show items that have a value greater than/less than etc.
 
